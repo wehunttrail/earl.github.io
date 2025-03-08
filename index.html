@@ -1,13 +1,50 @@
 <!DOCTYPE html>
-
-<html>
-    <hearder>
-
-    </hearder>
-
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Momentum App_clone</title>
+    </head>
 
     <body>
-        hello world!
+        <!-- 5. Weather and location -->
+        <div id="weather">
+            <span></span>
+            <span></span>
+         </div>
 
+        <!-- 1. clock -->
+        <div class="clock__assy">
+            <h2 id="clock">00:00</h2>
+        </div>
+        <h1 class="hiddden" id="greeting"></h1>
+
+        <!-- 2. login form with local storage -->
+        <div class="login-form__assy">
+            <form id="login-form" class="hidden">
+                <input type="text" required placeholder="What is your name?" />
+            </form>
+            <button>Log In</button>
+        </div>
+        <h1 id="greeting" class="hidden"></h1>
+
+        <!-- 3. To Do List with local storage -->
+        <div class="todo-form__assy">
+            <form id="todo-form">
+                <input class="input-todo" type="text" required placeholder="Write a To Do and Press Enter" />
+            </form>
+            <ul id="todo-list"></ul>
+        </div>
+
+        <!-- 4. Random background image -->
+            
+
+        <!-- java script files -->
+        <script src="js/z1-clock.js"></script>
+        <script src="js/z2-login-form.js"></script>
+        <script src="js/z3-todo-list.js"></script>
+        <script src="js/z4-background.js"></script>
+        <script src="js/z5-weather-geolocation.js"></script>
     </body>
 </html>

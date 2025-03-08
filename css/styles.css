@@ -1,0 +1,23 @@
+@import "z1-clock.css";
+@import "z2-login-form.css";
+@import "z3-todo-list.css";
+@import "z4-background.css";
+@import "z5-weather-geolocation.css";
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(7, 30, 98),
+                 -1px -1px 1px rgb(7, 30, 98);
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+.clock__assy {
+    display: flex;
+    justify-content: center;
+    font-size: 90px;
+    font-weight: bold;
+}
